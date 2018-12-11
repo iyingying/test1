@@ -1,0 +1,84 @@
+.daojishi {
+    position:absolute;
+    top:438px;
+    margin: 0 auto;
+    padding-top: 1px;
+    text-align: center;
+}
+
+.daojishi h1 {
+    position: relative;
+    margin:0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 0 3px 0 rgba(0,0,0,.2);
+}
+
+
+/* ---- Countdown timer ---- */
+
+#counter {
+    width: 290px;
+    height: 50px;
+    margin: 0 auto;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #fff;
+    line-height: 50px;
+    text-shadow: 0 3px 0 rgba(0,0,0,.2);
+    overflow: hidden;
+}
+
+#counter p {
+    float: left;
+    margin: 0 12px;
+    padding: 0;
+}
+
+#counter div {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.digit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+}
+
+#counter div p {
+    position: relative;
+    width: 22px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    line-height:50px;
+}
+
+#text {
+    width: 290px;
+    margin:0 auto;
+    font-weight: 400;
+    font-size: 14px;
+    color: #eee;
+    overflow: hidden;
+}
+
+#text div {
+    float: left;
+}
+
+.days {margin-left:20px;}
+.hours {margin-left:60px;}
+.minutes {margin-left:65px;}
+.seconds {margin-left:64px;}
+
+
+
+
